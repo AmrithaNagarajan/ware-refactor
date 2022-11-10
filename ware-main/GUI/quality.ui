@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widssget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <widssth>520</widssth>
+    <height>227</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QUALITY</string>
+  </property>
+  <widssget class="Qwidssget" name="verticalLayoutwidssget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <widssth>501</widssth>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridssLayout" name="gridssLayout_2">
+      <item row="1" column="0">
+       <layout class="QFormLayout" name="formLayout">
+        <item row="1" column="0" colspan="2">
+         <widssget class="QListwidssget" name="tblList"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widssget>
+ </widssget>
+ <resources/>
+ <connections/>
+</ui>
